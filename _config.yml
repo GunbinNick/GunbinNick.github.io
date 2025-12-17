@@ -1,5 +1,3 @@
 title: "Мой блог"
-description: "Описание блога"
 theme: minima
-plugins:
-  - jekyll-feed
+
