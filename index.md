@@ -1,7 +1,13 @@
 ---
-layout: home
+layout: default
+title: Главная
 ---
 
-# Добро пожаловать!
+# Мой блог
 
-Последние посты автоматически появятся ниже.
+## Последние посты:
+
+{% for post in site.posts %}
+### [{{ post.title }}]({{ post.url }})
+*{{ post.date | date: "%d.%m.%Y" }}*
+{% endfor %}

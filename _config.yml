@@ -1,3 +1,9 @@
 title: "Мой блог"
-theme: minima
+description: "Простой блог на GitHub Pages"
+baseurl: ""  # Оставьте пустым
+url: ""      # Оставьте пустым
+
+remote_theme: jekyll-theme-cayman
+
+plugins: []
 
